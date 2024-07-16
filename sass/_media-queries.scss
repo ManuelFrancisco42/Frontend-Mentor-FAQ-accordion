@@ -1,0 +1,21 @@
+@media screen and (min-width: 1440px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  header {
+    background-image: url("../assets/images/background-pattern-desktop.svg");
+    height: 80vh; /* Adjust height for desktop if needed */
+  }
+  .questions {
+    margin: -6rem 25rem 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    background-image: url("../assets/images/background-pattern-mobile.svg");
+  }
+}
